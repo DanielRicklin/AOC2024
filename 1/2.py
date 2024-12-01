@@ -3,7 +3,7 @@ right_list = []
 
 with open("puzzle.txt", "r") as puzzle:
     for line in puzzle.readlines():
-        temp = line.split("   ")
+        temp = line.split()
         left_list.append(temp[0])
         right_list.append(temp[1].rstrip())
 
