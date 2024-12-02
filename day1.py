@@ -33,8 +33,6 @@ if __name__ == "__main__":
     left_list.sort()
     right_list.sort()
 
-    result = 0
-
     p1 = part1(left_list.copy(), right_list.copy())
     p2 = part2(left_list.copy(), right_list.copy())
 
